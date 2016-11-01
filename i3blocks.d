@@ -1,1 +1,0 @@
-/home/maks/.config/i3blocks

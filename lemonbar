@@ -1,1 +1,12 @@
-/home/maks/.config/lemonbar/config
+#!/bin/bash
+
+Clock() {
+	DATETIME=$(date)
+
+	echo -n "$DATETIME"
+}
+
+while true; do
+	echo "%{c}%{F#FFFFFF} %{B#262626} %{o} %{U#464646} $(Clock) " 
+	sleep 1
+done

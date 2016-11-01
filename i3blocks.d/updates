@@ -1,0 +1,12 @@
+#!/bin/bash
+# Lists the amount of available package updates
+
+$(checkupdates)>/dev/null # update package repos, surpress stdout
+
+UPDATES=$(pacman -Qu|wc -l)
+
+if [[ $UPDATES>0 ]]; then
+    echo "<span foreground='#32CD32'>$UPDATES</span>" 
+else echo "$UPDATES"
+fi
+

@@ -1,0 +1,11 @@
+#!/bin/bash
+# Lists the amount of available AUR package updates
+
+$(checkupdates-aur)>/dev/null # update AUR package repos, surpress stdout
+
+UPDATES=$(checkupdates-aur|wc -l)
+
+if [[ $UPDATES>0 ]]; then
+    echo "<span foreground='#00FFFF'>$UPDATES</span>" 
+else echo $UPDATES
+fi
