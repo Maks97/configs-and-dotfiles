@@ -1,0 +1,3 @@
+net-p2p/deluge gtk
+net-libs/rb_libtorrent python
+dev-libs/boost python

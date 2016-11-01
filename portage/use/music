@@ -1,0 +1,9 @@
+# mpd
+
+media-sound/mpd flac ogg opus vorbis lame libmpdclient
+media-libs/flac ogg
+dev-libs/boost icu
+
+# ncmpcpp
+
+media-sound/ncmpcpp curl taglib visualizer

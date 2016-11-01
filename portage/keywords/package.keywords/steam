@@ -1,0 +1,5 @@
+# Steam stuff
+=games-util/steam-launcher-1.0.0.52-r2 ~amd64
+=games-util/steam-games-meta-0-r20160812 ~amd64
+=games-util/steam-meta-0-r20160817 ~amd64
+=games-util/steam-client-meta-0-r20160828 ~amd64
