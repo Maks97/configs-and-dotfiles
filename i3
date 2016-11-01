@@ -1,0 +1,1 @@
+/home/maks/.config/i3/config
