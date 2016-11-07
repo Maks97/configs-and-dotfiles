@@ -1,0 +1,11 @@
+# Krita - goddamnit QT/KDE, you're a fucking mess.
+
+media-libs/phonon -vlc -qt4 qt5
+media-gfx/krita color-management fftw vc
+sys-auth/consolekit policykit
+dev-libs/glib dbus
+dev-qt/qtcore icu
+sys-auth/polkit qt5
+sys-auth/polkit-qt qt5 -qt4
+kde-frameworks/kauth -policykit
+kde-frameworks/kio -kwallet
