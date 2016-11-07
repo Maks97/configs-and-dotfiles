@@ -2,7 +2,7 @@
 # Last updated: 2016-10-19  
 set $mod Mod4
 
-font pango:Awesome 8
+font pango:Awesome 9
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -158,7 +158,7 @@ bar {
 # Set window border to 1 for no names
 new_window 1pixel
 # Wallpaper rotation script
-exec --no-startup-id ~/wallpaper.sh
+exec --no-startup-id feh --bg-scale Pictures/Wallpapers/MacOS.png
 # Compton, for transparency; could probably remove it now though
 # exec --no-startup-id compton -CGb --config ~/.compton.conf
 
@@ -186,7 +186,7 @@ exec setxkbmap pl
 # mpd
 exec sudo rc-service mpd start
 # clock setup (after rebooting from Xubuntu)
-exec sudo hwclock --hctosys
+# exec sudo hwclock --hctosys
 
 # turn off the goddamned touch functionality on your tablet
 exec --no-startup-id ~/wacom

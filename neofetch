@@ -349,7 +349,7 @@ ascii="/usr/share/neofetch/ascii/distro/gentoo"
 # which will allow you to custom color distro logos
 # --ascii_colors distro
 # --ascii_colors 2 4 5 6
-ascii_colors=(0)
+ascii_colors=4 0 
 
 # Logo size
 # Arch, Crux and Gentoo have a smaller logo
