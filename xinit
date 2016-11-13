@@ -1,2 +1,9 @@
-[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
-exec i3
+#[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
+#exec i3 -c ~/.config/i3/config
+
+# x resources
+xrdb ~/.Xresources
+
+exec bspwm -c ~/config/bspwm/config
+# mpd server 
+#exec sudo rc-service mpd restart
