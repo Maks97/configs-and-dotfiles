@@ -2,7 +2,7 @@
 # Last updated: 2016-10-19  
 set $mod Mod4
 
-font pango:Awesome 9
+font xft:Hack 9
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -27,7 +27,7 @@ set $ws10 "10:X"
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id rofi -show run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -178,6 +178,7 @@ exec --no-startup-id ~/Downloads/DiscordCanary/DiscordCanary
 
 assign [class="Emacs"] $ws5
 assign [class="krita"] $ws6 
+assign [class="Gimp"] $ws6
 hide_edge_borders vertical
 
 # Polish keymap
