@@ -1,0 +1,2 @@
+sys-libs/efivar compiler-gcc
+sys-boot/efibootmgr compiler-gcc
