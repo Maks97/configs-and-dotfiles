@@ -22,14 +22,19 @@ printinfo () {
     info "Kernel" kernel
     info "Uptime" uptime
     info "Packages" packages
+    info linebreak
     info "Shell" shell
-    info "Resolution" resolution
+    prin "$(color 5)Editor" "$EDITOR"
+    prin "$(color 5)Statusbar" "dzen2"
+    prin "$(color 5)Compositor" "compton"
+    #info "Resolution" resolution
     #info "DE" de
     info "WM" wm
     #info "WM Theme" wmtheme
     #info "Theme" theme
     #info "Icons" icons
     #info "Font" font
+    info linebreak
     info "CPU" cpu
     info "GPU" gpu
     info "Memory" memory
