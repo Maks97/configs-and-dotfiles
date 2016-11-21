@@ -14,8 +14,8 @@ CHOST="x86_64-pc-linux-gnu"
 # These are the USE and USE_EXPAND flags that were used for
 # buidling in addition to what is provided by the profile.
 USE="cairo png jpeg X xkb xcb alsa xft -pulseaudio opengl"
-LINGUAS="pl en"
-L10N="en pl"
+LINGUAS="en"
+L10N="en"
 PORTDIR="/usr/portage"
 DISTDIR="${PORTDIR}/distfiles"
 PKGDIR="${PORTDIR}/packages"

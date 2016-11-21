@@ -1,2 +1,4 @@
 sys-libs/efivar compiler-gcc
 sys-boot/efibootmgr compiler-gcc
+app-text/aspell compiler-gcc
+app-editors/emacs compiler-gcc
