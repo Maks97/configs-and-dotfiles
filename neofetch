@@ -25,7 +25,7 @@ printinfo () {
     info linebreak
     info "Shell" shell
     prin "$(color 5)Editor" "$EDITOR"
-    prin "$(color 5)Statusbar" "dzen2"
+    prin "$(color 5)Statusbar" "polybar"
     prin "$(color 5)Compositor" "compton"
     #info "Resolution" resolution
     #info "DE" de
